@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.borda{
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 10px;
+}
+.quadrado_borda{
+    border-width: 10px;
+    border-right-color: red;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+}
+.circulo{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.circulo_sem_borda{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.borda_sem_muitos_comandos{
+    border: 10px dotted red;
+}
+
+.solid{border-style: solid;}
+.dashed{border-style: dashed;}
+.dotted{border-style: dotted;}
+.none{border-style: none;}
+.hidden{border-style: hidden;}
+
