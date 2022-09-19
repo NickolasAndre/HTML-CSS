@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+p{
+    color: red;
+}
+
+.center{
+    color: red;
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+.text-transform{
+    text-transform: uppercase;
+    text-indent: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+.letter-spacting{
+    letter-spacing: 2px;
+}
