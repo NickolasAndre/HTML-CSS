@@ -23,3 +23,25 @@ a{
 .letter-spacting{
     letter-spacing: 2px;
 }
+
+a:visited{
+    color: red;
+}
+
+.bottom{
+   
+    text-decoration: none;
+    color: green;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.bottom:hover{
+    background-color: blueviolet;
+    color: yellow;
+}
+.bottom:active{
+    background-color: orange;
+    color: blue;
+}
