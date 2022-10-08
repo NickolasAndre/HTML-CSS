@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
@@ -14,14 +14,27 @@
             background-repeat: no-repeat;
            
             background-size: cover; /*  O background-size: cover; vai colocar a imagem 100%, porem vai corta ela para adaptar, O  background-size: contain;, vai deixar a imagem toda mas não vai cortar a imagem*/
+            background-attachment: fixed;
+
+            /*
+            shorthand - background
+                color > image > position > repeat > size > attachment
+            
+                background: black  url(imagens/wallpaper002.jpg) center center no-repeat cover fixed;
+                background-size: cover;
+
+                pode colocar esse no lugar dos comandos 
+            */
+            
         }
         main{
             background-color: white;
-            width:400px;
+            max-width:700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+            text-align: justify;
         }
     </style>
 </head>
@@ -29,6 +42,13 @@
     <main>
         <h1>Teste de Imagem de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quas nostrum architecto eveniet, animi quo veniam dolore officiis rem necessitatibus sunt saepe molestiae suscipit dolorem, praesentium ducimus aliquid delectus! Facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deleniti iusto, veritatis fugiat mollitia recusandae aliquid modi. At asperiores cupiditate obcaecati labore, maxime amet adipisci aspernatur, nemo tempora similique ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia cupiditate tenetur at ad. Esse quae exercitationem, ut aperiam officia natus dignissimos at aspernatur id voluptate eum, culpa, praesentium sapiente.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quas nostrum architecto eveniet, animi quo veniam dolore officiis rem necessitatibus sunt saepe molestiae suscipit dolorem, praesentium ducimus aliquid delectus! Facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deleniti iusto, veritatis fugiat mollitia recusandae aliquid modi. At asperiores cupiditate obcaecati labore, maxime amet adipisci aspernatur, nemo tempora similique ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia cupiditate tenetur at ad. Esse quae exercitationem, ut aperiam officia natus dignissimos at aspernatur id voluptate eum, culpa, praesentium sapiente.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quas nostrum architecto eveniet, animi quo veniam dolore officiis rem necessitatibus sunt saepe molestiae suscipit dolorem, praesentium ducimus aliquid delectus! Facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deleniti iusto, veritatis fugiat mollitia recusandae aliquid modi. At asperiores cupiditate obcaecati labore, maxime amet adipisci aspernatur, nemo tempora similique ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia cupiditate tenetur at ad. Esse quae exercitationem, ut aperiam officia natus dignissimos at aspernatur id voluptate eum, culpa, praesentium sapiente.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur quas nostrum architecto eveniet, animi quo veniam dolore officiis rem necessitatibus sunt saepe molestiae suscipit dolorem, praesentium ducimus aliquid delectus! Facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio deleniti iusto, veritatis fugiat mollitia recusandae aliquid modi. At asperiores cupiditate obcaecati labore, maxime amet adipisci aspernatur, nemo tempora similique ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam mollitia cupiditate tenetur at ad. Esse quae exercitationem, ut aperiam officia natus dignissimos at aspernatur id voluptate eum, culpa, praesentium sapiente.</p>
+       
+        
+        
+
     </main>
 </body>
 </html>
