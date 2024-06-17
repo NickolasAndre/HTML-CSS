@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.conteiner{
+    background-color: aquamarine;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.item{
+    background-color: burlywood;
+    border: 1px solid black;
+    flex: auto;
+    text-align: center;
+}
