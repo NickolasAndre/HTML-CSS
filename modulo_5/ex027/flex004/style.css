@@ -11,6 +11,6 @@
 .item{
     background-color: burlywood;
     border: 1px solid black;
-
+    height: 100px;
     text-align: center;
 }
