@@ -19,7 +19,7 @@ main{
     flex-flow: row nowrap;
 
     justify-content: center;
-    justify-items: center;
+    align-items: center;
 }
 
 section{
